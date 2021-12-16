@@ -64,3 +64,7 @@ DB_PASSWORD="SUPER_SECRET"
 ## License
 
 envpop is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Contact
+
+Tim Philips [@mr_timp](https://twitter.com/mr_timp)
