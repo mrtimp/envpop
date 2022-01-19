@@ -17,5 +17,11 @@ func main() {
 		log.Fatalf("Error loading the .env template file '%s'", *file)
 	}
 
-	fmt.Println(Parse(envFile))
+	var env, _ = Parse(envFile)
+
+	if err != nil {
+		log.Fatalf("Error parsing the .env template file '%s'", *file)
+	}
+
+	fmt.Printf("%s", env)
 }
