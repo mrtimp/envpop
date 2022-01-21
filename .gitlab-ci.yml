@@ -49,4 +49,4 @@ release:
     assets:
       links:
         - name: 'Linux binary'
-          url: 'https://gitlab.com/mr_timp/envpop/-/jobs/${GE_JOB_ID}/artifacts/file/dist/envpop-linux'
+          url: 'https://gitlab.com/mr_timp/envpop/-/jobs/${CI_JOB_ID}/artifacts/file/dist/envpop-linux'
